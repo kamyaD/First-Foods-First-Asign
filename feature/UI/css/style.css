@@ -1,8 +1,8 @@
 .main {
-  
+    position:absolute;
     border: 1px solid #310080;
-    width:500px;
-    height: 100%;
+    width:400px;
+    height:600px;
     box-shadow: 5px 5px 2px rgba(179, 255, 0, 0.616);
     align-content: center;
   }
@@ -23,3 +23,29 @@
     padding-right: 5px;
     padding-bottom: 5px;
   }
+
+  ul li{
+    float: left;
+    width: 80px;
+    height: 50px;
+    opacity: .8;
+    line-height:40px;
+    text-align: left;
+    font-size: 18px;
+    align-self: left;
+    margin-right: 2px;
+    list-style-type: none;
+    
+  }
+
+  
+ul li a{
+  text-decoration: none;
+  color:red;
+  display: block;
+}
+
+ul li a:hover{
+background-color:#9aecb99c;
+}
+
