@@ -1,11 +1,24 @@
-.main {
+.main-signup {
     position:absolute;
     border: 1px solid #310080;
     width:400px;
-    height:600px;
+    height:530px;
     box-shadow: 5px 5px 2px rgba(179, 255, 0, 0.616);
     align-content: center;
+    float:left;
   }
+
+  .main-login {
+    position:absolute;
+    border: 1px solid #310080;
+    width:400px;
+    height:140px;
+    box-shadow: 5px 5px 2px rgba(179, 255, 0, 0.616);
+    align-content: center;
+    float: right;
+  }
+
+
 
   h3, img, #form{
     margin-left: 5px;
@@ -26,7 +39,7 @@
 
   ul li{
     float: left;
-    width: 80px;
+    width: 60px;
     height: 50px;
     opacity: .8;
     line-height:40px;
@@ -35,6 +48,7 @@
     align-self: left;
     margin-right: 2px;
     list-style-type: none;
+    padding-left: 0.5 px;
     
   }
 
