@@ -1,3 +1,7 @@
+.wrap{
+  width:980px;
+}
+
 .main-signup {
     position:absolute;
     border: 1px solid #310080;
