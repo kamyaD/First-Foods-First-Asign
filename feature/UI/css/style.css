@@ -46,3 +46,25 @@ li a {
 li a:hover {
     background-color: #111111;
 }
+
+table,
+tr,
+td {
+    border: 1px solid black;
+    align-self: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 130px;
+    
+}

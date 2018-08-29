@@ -4,7 +4,7 @@
         <title>Fast-Food-Fast</title>
         <link href="css/style.css" rel="stylesheet">
         <script src="script/script.js"></script>
-    </head>
+    <head>
     <body>
         <div class="wrap">
             <div  class="main-signup">
@@ -13,41 +13,41 @@
                 <div>
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">View orders</a></li>                     
+                        <li><a href="histry.html">View orders</a></li>                     
                         <li><a href="index.html">Sign out</a></li>
                     </ul>
                 </div>
                 <p>
                 <div class="facts">Please Make your order:</div>
                 <p>
-                    <form>
+                    <form name="order_form" >
                         <ol type="1" ><b>Break farst</b>
                                 <dl>
                                         <dt>Coffee</dt>
                                         <dd>- black hot coffee with sugar .....100/=</dd>
-                                        <center><input type="radio" name="order" value="coffee" checked> select<br></center>
+                                        <center><input type="radio" name="order" value="Black Coffee with Sugar" checked> select<br></center>
                                         <dt>Milk</dt>
                                         <dd>- white Tea with Milk .....200/=</dd>
-                                        <center><input type="radio" name="order" value="milk" > select<br></center>
+                                        <center><input type="radio" name="order" value="White tea with milk" > select<br></center>
                                         <dt>Tea</dt>
                                         <dd>- Black Tea with Sugar .......100/=</dd>
-                                        <center><input type="radio" name="order" value="tea" > select<br></center>
+                                        <center><input type="radio" name="order" value="Black tea with Sugar " > select<br></center>
                                 </dl>
                         </ol>
                         <ol type="1" ><b>Lunch</b>
                                 <dl>
                                         <dt>Beaf</dt>
                                         <dd>- Beaf stew with soup served with Ugali ...500/=</dd>
-                                        <center><input type="radio" name="order" value="Beaf" checked> select<br></center>
+                                        <center><input type="radio" id="order" name="order" value="Beaf stew with Ugali" checked> select<br></center>
                                         <dt>Chips</dt>
                                         <dd>- Fried chips served with chicken .... 1000/=</dd>
-                                        <center><input type="radio" name="order" value="Chips" > select<br></center>
+                                        <center><input type="radio" id="order" name="order" value="Fried Chips Chicken " > select<br></center>
                                         <dt>Greens</dt>
                                         <dd>- Mix of local vegetables ... 200/=</dd>
-                                        <center><input type="radio" name="order" value="Greens" > select<br></center>
+                                        <center><input type="radio" id="order" name="order" value="Greens" > select<br></center>
                                 </dl>
                         </ol>
-                        <center><button type ="submit" value="Submit" > Submit</button>
+                        <center><button id="submit" type ="submit" value="Submit" onclick="histry();" > Submit</button>
 
 
                     </form>
@@ -58,13 +58,6 @@
             
             <p>
            
-        </div>
-
-
-                        
-
-        
-        
-        
+        </div> 
     </body>
 </html>    
