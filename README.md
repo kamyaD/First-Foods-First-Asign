@@ -7,6 +7,7 @@ The admin can see the list of items and can accept and decline the orders, he ca
 
 # How to navigate the app.
   1: The apps URL is https://kamyad.github.io/First-Foods-project.github.io/
+  
   2: To Access the rest of the pages click login. This will take you to the login page.
   3: In the login page, click login agane since we have not set up the back end. This will take you to order page
   4: In the order page you can select any item in thte menu and click submit. The popup message will show up confrming your order.
