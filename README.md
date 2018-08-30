@@ -1,4 +1,4 @@
-# First-Foods-project.github.io
+# First-Foods-project
 Fast-Food-Fast is a food delivery service app for a restaurant
 
 The app allows the user to create an account and login, the users can also make order for food and also view the status of their order.
