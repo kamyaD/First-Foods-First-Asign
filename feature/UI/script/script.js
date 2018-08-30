@@ -3,12 +3,3 @@ function histry(){
 }
 
 
-function retun_order(){
-    var form = document.getElementsByTagName("order_form");
-    form_onsubmit=function(event){
-        event.preventDefault();
-        console.log(form.order);
-    }
-}
-
-retun_order();
